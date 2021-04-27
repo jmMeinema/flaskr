@@ -8,6 +8,7 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 
 export FLASK_APP=flaskr
 export FLASK_ENVIRONMENT=development
+export FLASK_DEBUG=1
 
 flask run
 
